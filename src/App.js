@@ -1,10 +1,14 @@
 import React from "react";
+import Todo from "./exam/Todo";
+import CoinTracker from "./exam/CoinTracker";
 
-function App() {
+function App(props) 
+{  
   return (
-    <div>
-      <h1>Welcome back!!!</h1>
-    </div>
+    <>
+      <Todo />
+      <CoinTracker />
+    </>
   );
 }
 
