@@ -1,14 +1,21 @@
 import React from "react";
-import Todo from "./exam/Todo";
-import CoinTracker from "./exam/CoinTracker";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Home from "./routes/Home";
+import Detail from "./routes/Detail";
 
-function App(props) 
+function App() 
 {  
   return (
-    <>
-      <Todo />
-      <CoinTracker />
-    </>
+    <Router>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/movie" element={<Detail />} />
+      </Routes>
+    </Router>
   );
 }
 
