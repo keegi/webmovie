@@ -1,18 +1,18 @@
 # Movie Web start
 
 ### `2022.08.24`
-*style ( https://github.com/nomadcoders/react-for-beginners/commit/58aca2193a50ff21663ed4fb06b0785a8480c05e )
-7.8 : Conclusions
-7.7 : github에 homepage 생성하는 방법 - 추후 적용
-npm install gh-pages 설치
-7.6 : useParams()을 이용한 detail page url 연결
+*style ( https://github.com/nomadcoders/react-for-beginners/commit/58aca2193a50ff21663ed4fb06b0785a8480c05e ).\
+7.8 : Conclusions.\
+7.7 : github에 homepage 생성하는 방법 - 추후 적용.\
+npm install gh-pages 설치.\
+7.6 : useParams()을 이용한 detail page url 연결.\
 
 ### `2022.08.23` 
-→ (7.3 / 7.4 / 7.5)
-npm install prop-types , npm install react-router-dom 설치
-routes > Home.js 
-routes > Detail.js
-components > Movie.js
+→ (7.3 / 7.4 / 7.5).\
+npm install prop-types , npm install react-router-dom 설치.\
+routes > Home.js.\
+routes > Detail.js.\
+components > Movie.js.\
 
 ====================================================================================================
 
